@@ -1,0 +1,15 @@
+What is Git?
+-It is a Version Control System for tracking changes in computer files.
+Concepts of Git.
+-Keeps track of code history
+-Take "snapshots" of your files
+-You can commit the snapshot when you want and view it any time
+
+Commands
+-git init //initialize local git repo
+-git add <file>  //add file to index
+-git status //check status of the working tree
+-git commit //commit changes in the index
+-git push // push to the remote repository
+-git pull //pull latrest from the remote repo
+-git clone //clone a repo into a new directory
