@@ -8,8 +8,11 @@ Concepts of Git.
 Commands
 -git init //initialize local git repo
 -git add <file>  //add file to index
+-git add * // adds all untracked files
 -git status //check status of the working tree
 -git commit //commit changes in the index
 -git push // push to the remote repository
 -git pull //pull latrest from the remote repo
 -git clone //clone a repo into a new directory
+-git rm --cached <file that you just added to index>
+-gitignore file // allows you to specify the files you do not want to add
