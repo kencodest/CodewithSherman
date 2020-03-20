@@ -4,6 +4,11 @@ class Employee{
 	int salary;
 	static String ceo;
 	
+	static // executed when we load a class
+	{
+		ceo="Larry";
+	}
+	
 	public void show() {
 		System.out.println(eid+" : "+salary+" : "+ceo);
 	}
@@ -16,12 +21,10 @@ public class StaticDemo {
 		
 		ken.eid=1;
 		ken.salary=100_000;
-		ken.ceo="Mwangangi";
 		
 		muia.eid=2;
 		muia.salary=200_000;
-		muia.ceo="Mwangangi";
-		muia.ceo="Osapir";// we expect that since both employees work under the same CEO, when the CEO changes, he should change for all employees.
+		//Employee.ceo="Osapir";// we expect that since both employees work under the same CEO, when the CEO changes, he should change for all employees.
 		ken.show();
 		muia.show();
 				
