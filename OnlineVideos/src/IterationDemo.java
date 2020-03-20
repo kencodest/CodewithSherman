@@ -24,6 +24,24 @@ public class IterationDemo {
 		{
 			System.out.println("Hello there folks!!");
 		}
+		
+		//nested loop
+		//Aim is to print the following box of stars
+		/*
+		 *  * * * *
+		 *  * * * *
+		 *  * * * *
+		 *  * * * *
+		 * 
+		 */
+		for(i=1;i<=4;i++) 
+		{
+			for(j=1;j<=4;j++)
+			{
+				System.out.print("* ");
+			}
+			System.out.println(i + " ");//print a new line
+		}
 	}
 
 }
