@@ -1,5 +1,5 @@
 # CodewithSherman
-This particular branch is contains the content gained from Java Tutorial by Navin Reddy. It has the code snippets for each concept that 
-he teaches and has notes taken in the course of viewing the tutorial.
+This particular branch contains learning content gained from Java tutorial by Navin Reddy. It has code snippets for each concept that 
+are taught and also notes taken in the course of viewing the tutorial.
 
 Work in progress!!
